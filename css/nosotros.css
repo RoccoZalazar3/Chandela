@@ -1,0 +1,85 @@
+/**Nosotros **/
+
+.nosotros-personal{
+    image-resolution: 20rem;
+    align-content: center;
+}
+
+@media (min-width: 768px){
+    .nosotros-barberos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+        width: 80rem;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 70%;
+        column-gap: 10rem;
+    }
+}
+
+.barberos {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.mision {
+    margin-top: 0;
+}
+
+.imagen-nosotros {
+    width: 100%;
+}
+
+
+.personal-edit{
+    text-align: center;
+    border-style: dashed;
+    border-left: none;
+    border-right: none;
+    margin: auto;
+    margin-bottom: 5rem;
+    padding: 1 0 1 0;
+}
+
+.personal-edit {
+    width: 100%;
+    right: 90%;
+    bottom: 0%;
+    padding: 1rem;
+}
+
+@media (min-width: 768px) {
+    .personal-edit {
+        width: 25%;
+        right: 0%;
+        bottom: 0%;
+    }
+}
+
+.nosotros-personal {
+    border-bottom: 1px solid var(--gris) ;
+    margin-bottom: 2rem;
+
+}
+
+.nosotros-personal:last-of-type{
+    border: none;
+    margin-bottom: 0; 
+}
+
+@media (min-width: 768px){
+    .nosotros-personal{
+        border: none;
+        margin-bottom: 0; 
+    }
+}
+
+.personal {
+    text-align: center;
+}
+
+.parrafo-nosotros {
+    padding-bottom: 2rem;
+}

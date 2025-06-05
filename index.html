@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandelas</title>
+    <link rel="icon" type="image/jpg" href="img/Logo.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Preload-->
+    <link rel="preaload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css" as="style">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=PT+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="fondo">
+            <div class="contenedor">
+                <div class="barra">
+                    <a class="logo" href="index.html">
+                        <img class="logo__img" src="/img/Logo.jpg" alt="Logo">
+                    </a>
+
+                    <nav class="navegacion">
+
+                        <a href="index.html" class="navegacion__enlace">Inicio</a>
+                        <a href="#servicios" class="navegacion__enlace"> Servicios</a>
+                        <a href="#contacto" class="navegacion__enlace">Contacto</a>
+                        <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="header__texto">
+                <h2 class="header--titulo"> Barbería y Peluquería</h2>
+                <p class="header--descripcion">Ofecemos el mejor servicio al mejor precio, brindandoles la mejor atención y desempeño </p>
+            </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog" id="servicios">
+            <div class="nuestros-servicios">  
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-scissors recorte" width="36" height="36" viewBox="0 0 24 24" stroke-width="0.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="6" cy="7" r="3" />
+                    <circle cx="6" cy="17" r="3" />
+                    <line x1="8.6" y1="8.6" x2="19" y2="19" />
+                    <line x1="8.6" y1="15.4" x2="19" y2="5" />
+                  </svg>
+            <h3 class="nombre-servicios">Nuestros Servicios</h3>
+            <div class="servicios">
+            </div>
+            </div>
+
+            <article class="entrada">
+                <div>
+                    <picture>
+                        <source srcset="img/blog1.webp" type="imagen/webp">
+                        <img  src="img/Corte.webp" alt="imagen Corte" loading="lazy">
+                    </picture>
+                </div>
+
+                <div>
+                    <h4 class="titulo-servicios">Corte de Cabello</h4>
+                    <p>Cortes clásicos o modernos, a tijera, desvanecidos a máquina o navaja. Además, te asesoramos para elegir el corte que más se adecúe a tu fisionomía y estilo.</p>
+                </div>
+            </article>
+            <article class="entrada">
+                <div class="entrada__derecha">
+                    <picture>
+                        <source srcset="img/blog2.webp" type="imagen/webp">
+                        <img src="img/Perfilado.webp" alt="imagen Perfilado" loading="lazy">
+                    </picture>
+                </div>
+
+                <div>
+                    <h4 class="titulo-servicios">Perfilado de Cejas</h4>
+                    <p>El perfilado es clave para destacar los ojos y dar personalidad al rostro.
+                    Nos encargamos de delinear y asesorar sobre el volumen adecuado.</p>
+
+                </div>
+            </article>
+            <article class="entrada">
+                <div>
+                    <picture>
+                        <source srcset="img/blog3.webp" type="imagen/webp">
+                        <img src="img/Barba.webp" alt="imagen barba" loading="lazy">
+                    </picture>
+                </div>
+
+                <div>
+                    <h4 class="titulo-servicios">Corte de barba</h4>
+                    <p>Afeitados, Recortes, Hidratación, Limpieza de nuca, oídos y fosas nasales.</p>
+                </div>
+            </article>
+            <article class="entrada">
+                <div class="entrada__derecha">
+                    <picture>
+                        <source srcset="img/blog3.webp" type="imagen/webp">
+                        <img src="img/Dibujos.webp" alt="imagen Dibujos" loading="lazy">
+                    </picture>
+                </div>
+
+                <div>
+                    <h4 class="titulo-servicios">Dibujos</h4>
+                    <p>Te ofrecemos dibujos echos a navajas, los que estan a la moda. Dibujos modernos hasta dibujos simple, no dudes en pedirlo, sin costo adicional</p>
+
+                </div>
+
+            </article>
+
+            <article class="entrada">
+                <div>
+                    <picture>
+                        <source srcset="img/blog1.webp" type="imagen/webp">
+                        <img  src="img/Color.webp" alt="imagen Color" loading="lazy">
+                    </picture>
+                </div>
+
+                <div>
+                    <h4 class="titulo-servicios">Pinturas</h4>
+                    <p>Pinturas, mechado, puntas, los colores y las formas que usted desee. </p>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <ul class="precios-productos">
+                <li class="widget-precio">
+                    <h3 class="nombre-precios">Servicios</h3>
+                    
+                    <div class="texto-derecha">
+                        <p class="widget-precio__label">Corte Normal:
+                        <p>Consultar</p>
+                    </div>
+                    <div class="texto-derecha">
+                        <p class="widget-precio__label">Barba:
+                        <p>Consultar</p>
+                    </div>
+                    <div class="texto-derecha">
+                         <p class="widget-precio__label">Colores:
+                        <p>Consultar</p>
+                    </div>
+                    <div class="texto-derecha">
+                        <p class="widget-precio__label">Diseños y Dibujos:
+                        <p>Consultar</p>
+                    </div> 
+                    <a href="https://wa.me/542612058659" class="boton boton--secundario">Consultar el precio</a>
+                </li>
+
+                <li class="widget-precio">
+                    <h4 class="nombre-productos">Productos</h4>
+                    <div class="texto-derecha">
+                        <p class="widget-precio__label">Gel:
+                        <p>Consultar</p>
+                    </div>
+                    <div class="texto-derecha">
+                        <p class="widget-precio__label">Ceras:
+                        <p>Consultar</p>
+                    </div> 
+                    <div class="texto-derecha">
+                        <p class="widget-precio__label">Shampoo matizador:
+                        <p>Consultar</p>    
+                    </div>    
+                        <a href="https://wa.me/542612058659" class="boton boton--secundario">Consultar el precio</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <div class="contacto" id="contacto">
+            <h3 class="contacto-titulo">Contactos</h3>
+                <div class="contactos">
+                    <div class="iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="68" height="68" viewBox="0 0 24 24" stroke-width="2" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                        </svg>
+                        
+                        <h5 class="info">(261) 205-8659</h5>
+                    </div>
+                    <div class="iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="68" height="68" viewBox="0 0 24 24" stroke-width="2" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="3" y="5" width="18" height="14" rx="2" />
+                            <polyline points="3 7 12 13 21 7" />
+                        </svg>
+                        
+                        <div class="horarios">
+                        <h5 class="info">
+                            <span class="negritas center">Horarios de atencion:</span> 
+                            <br>
+                            <span class="negritas">Lunes:</span> 16:30hs - 21hs
+                            <br>
+                            <span class="negritas">Martes a Sabado:</span> 10hs - 14hs y 16:30hs - 21hs
+                        </h5>
+                        </div>
+                        
+
+
+                    </div>
+                    <div class="iconos"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="68" height="68" viewBox="0 0 24 24" stroke-width="2" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="12" cy="11" r="3" />
+                            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                        </svg>
+                       
+                        <h5 class="info">Esquina "Montes de Oca y Segundo Sombra"
+                            Godoy Cruz. Mendoza</h5>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+    <section>
+    <div class="ubicacion">
+    <h3>Ubicación</h3>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1674.6039500289119!2d-68.867775216397!3d-32.919104997616145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb21ad725b11%3A0x1c3d27613cfdaac!2sChandelas%20barber%C3%ADa!5e0!3m2!1ses!2sar!4v1674087124706!5m2!1ses!2sar" width="100%" height="450rem" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Chandelas</h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="index.html" class="navegacion__enlace">Inicio</a>
+                    <a href="#servicios" class="navegacion__enlace"> Servicios</a>
+                    <a href="#contacto" class="navegacion__enlace">Contacto</a>
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>  
+                </nav>
+            </div>
+        </div>
+
+        <div class="redes-sociales">
+            <a href="https://www.instagram.com/barberia_chandelas/">
+                <img src="img/Instagram.png" alt="Instagram">
+            </a>
+            <a href="https://wa.me/542612058659">
+                <img src="img/whatsapp.png" alt="Whatsapp">
+            </a>
+        </div>
+
+        <div>
+        <div class="derechos-reservados">
+            <p class="margin-top-0">© 2023 Chandelas - Todos los derechos reservados. | Creado por <a class="yousite" href="yousite.com.ar">You Site</a></p>
+        </div>
+
+
+    </footer>
+</body>
+</html>
